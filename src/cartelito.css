@@ -29,3 +29,38 @@
   font-family: 'Eagle Lake', cursive;
   color: black;
 }
+
+@media screen and (max-width: 980px) {
+  .container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-image: url('https://images4.alphacoders.com/824/thumb-1920-824093.jpg');
+    background-position: center;
+    background-size: contain;
+  }
+
+  .cartelito {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 75%;
+    border: 3px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    box-shadow: 0 0 30px 40px rgba(0,0,0,0.5);
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+
+  .text {
+    font-family: 'Eagle Lake', cursive;
+    color: black;
+    font-size: large;
+  }
+}

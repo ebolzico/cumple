@@ -104,3 +104,33 @@
   transition: ease 0.2s;
   color: #61dafb;
 }
+
+@media screen and (max-width: 980px) {
+  .Cumple-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .options {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+  }
+
+  .btn:hover {
+    cursor: pointer;
+    background-color: black;
+    border-color: #61dafb;
+    transition: all 0.3s;
+  }
+  
+  .btn:hover > .text {
+    color: #61dafb;
+  }
+}
