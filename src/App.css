@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300&family=Eagle+Lake&display=swap');
+
+.Cumple {
+  text-align: center;
+  background-image: url('https://img.ecartelera.com/noticias/57700/57725-m.jpg?v=2.0');
+  background-position: center;
+  background-size: contain;
+}
+
+.Cumple-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Cumple-logo {
+    animation: App-logo-spin infinite 20s linear;
+    margin: 30px;
+  }
+}
+
+.Cumple-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Cumple-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text {
+  font-family: 'Eagle Lake', cursive;
+  color: black;
+}
+
+.btn {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  padding: 15px;
+  background-color: #61dafb;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: black;
+  border-color: #61dafb;
+  transition: all 0.3s;
+}
+
+.btn:hover > .text {
+  color: #61dafb;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  width: 80%;
+}
+
+
+
+.option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 25%;
+  margin: 5%;
+  border: 3px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #61dafb;
+  border-radius: 10px;
+}
+
+.box:hover {
+  background-color: black;
+  transition: ease 0.2s;
+  color: #61dafb;
+}
