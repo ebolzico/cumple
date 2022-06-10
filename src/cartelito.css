@@ -30,9 +30,19 @@
   color: black;
 }
 
+.wink {
+  display: flex;
+  width: 20%;
+  height: 75%;
+  background-image: url('./guiño_foqui.jpeg');
+  background-size: contain;
+  margin-left: 50px;
+}
+
 @media screen and (max-width: 980px) {
   .container {
     display: flex;
+    flex-direction: column;
     height: 100vh;
     width: 100vw;
     justify-content: flex-start;
@@ -62,5 +72,16 @@
     font-family: 'Eagle Lake', cursive;
     color: black;
     font-size: large;
+  }
+
+  .wink {
+    display: flex;
+    width: 80%;
+    height: 50%;
+    background-image: url('./guiño_foqui.jpeg');
+    background-size: cover;
+    margin-left: 0;
+    margin-top: 20px;
+    border-radius: 10px;
   }
 }
