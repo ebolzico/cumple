@@ -35,7 +35,7 @@
   width: 20%;
   height: 75%;
   background-image: url('./guiño_foqui.jpeg');
-  background-size: contain;
+  background-size: cover;
   margin-left: 50px;
 }
 
