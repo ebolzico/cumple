@@ -15,7 +15,9 @@ const Cumple = () => {
   return(
     <div className="Cumple">
         <header className="Cumple-header">
-          <p className="text">DALE LOQUITA VENITE AL CUMPLEEEEEEEEE</p>
+          <div className='title'>
+            <p className="text">DALE LOQUITA VENITE AL CUMPLEEEEEEEEE</p>
+          </div>
           {/* <p class="text">Porque cuando pisas mi casa, estas con Dios</p> */}
           <img src={foqui} className="Cumple-logo" alt="logo" />
           {

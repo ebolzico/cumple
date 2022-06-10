@@ -42,6 +42,14 @@
   }
 }
 
+.title {
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: #61dafb;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .text {
   font-family: 'Eagle Lake', cursive;
   color: black;
